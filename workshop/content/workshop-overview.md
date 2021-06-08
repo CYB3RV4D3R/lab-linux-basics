@@ -1,1 +1,8 @@
-This is the initial landing page for your workshop. Include in this page a description of what your workshop is about.
+#### Course Outline
+## Linux Basics
+- Linux Introduction
+- Linux Filesystem
+- Linux Networking
+- Users and Groups
+- Permissions and Ownership
+- Linux Processes

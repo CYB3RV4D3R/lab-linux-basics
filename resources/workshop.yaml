@@ -1,17 +1,17 @@
 apiVersion: training.eduk8s.io/v1alpha2
 kind: Workshop
 metadata:
-  name: lab-markdown-sample
+  name: lab-linux-basics
 spec:
   title: Markdown Sample
-  description: A sample workshop using Markdown
+  description: A workshop for Linux Basics
   vendor: eduk8s.io
   difficulty: beginner
   duration: 15m
-  url: https://github.com/eduk8s/lab-markdown-sample
+  url: https://github.com/CYB3RV4D3R/lab-linux-basics
   content:
     #image: quay.io/eduk8s/lab-markdown-sample:master
-    files: github.com/eduk8s/lab-markdown-sample
+    files: github.com/CYB3RV4D3R/lab-linux-basics
   session:
     namespaces:
       budget: small

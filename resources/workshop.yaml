@@ -6,7 +6,7 @@ spec:
   content:
     files: github.com/CYB3RV4D3R/lab-linux-basics
     image: docker.io/cpauley/cpauley-repo:dso-container
-  description: A simple basic Linux course
+  description: A basic Linux course
   difficulty: beginner
   duration: 15m
   session:
@@ -20,6 +20,6 @@ spec:
         layout: split
     namespaces:
       budget: small
-  title: Linux Basics
+  title: 1. Linux Basics
   url: https://github.com/CYB3RV4D3R/lab-linux-basics
   vendor: eduk8s.io

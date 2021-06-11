@@ -3,7 +3,7 @@ kind: Workshop
 metadata:
   name: lab-linux-basics
 spec:
-  title: Markdown Sample
+  title: Basic Linux
   description: A workshop for Linux Basics
   vendor: eduk8s.io
   difficulty: beginner

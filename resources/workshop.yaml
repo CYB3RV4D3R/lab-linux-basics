@@ -3,23 +3,23 @@ kind: Workshop
 metadata:
   name: lab-linux-basics
 spec:
-  title: Basic Linux
-  description: A workshop for Linux Basics
-  vendor: eduk8s.io
+  content:
+    files: github.com/CYB3RV4D3R/lab-linux-basics
+    image: docker.io/cpauley/cpauley-repo:dso-container
+  description: A simple basic Linux course
   difficulty: beginner
   duration: 15m
-  url: https://github.com/CYB3RV4D3R/lab-linux-basics
-  content:
-    #image: quay.io/eduk8s/lab-markdown-sample:master
-    files: github.com/CYB3RV4D3R/lab-linux-basics
   session:
-    namespaces:
-      budget: small
     applications:
-      terminal:
-        enabled: true
-        layout: split
       console:
         enabled: true
       editor:
         enabled: true
+      terminal:
+        enabled: true
+        layout: split
+    namespaces:
+      budget: small
+  title: Linux Basics
+  url: https://github.com/CYB3RV4D3R/lab-linux-basics
+  vendor: eduk8s.io

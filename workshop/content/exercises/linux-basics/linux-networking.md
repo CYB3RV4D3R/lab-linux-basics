@@ -55,7 +55,7 @@ yum install iputils -y
 ```
 
 ```execute
-ping 172.17.0.6
+ping 127.0.0.1
 ```
 
 ```execute
